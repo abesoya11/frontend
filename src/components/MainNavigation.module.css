@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(1, 86, 73);
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+button {
+  background-color: transparent;
+  gap: 1rem;
+}
+.list a,
+button {
+  text-decoration: none;
+  color: var(--color-primary-400);
+  border: 1px solid var(--color-primary-400);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-900);
+}
